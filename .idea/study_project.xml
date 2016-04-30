@@ -4,6 +4,9 @@
     <StudyTaskManager>
       <option name="course">
         <Course>
+          <option name="authors">
+            <list />
+          </option>
           <option name="courseDirectory" value="$APPLICATION_CONFIG_DIR$/courses/Kotlin Koans" />
           <option name="courseType" value="PyCharm" />
           <option name="description" value="Kotlin Koans" />
@@ -664,7 +667,7 @@
                     <Task>
                       <option name="index" value="1" />
                       <option name="name" value="Comparison" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
                       <option name="stepicId" value="0" />
                       <option name="text" />
                       <option name="taskFiles">
@@ -684,17 +687,17 @@
                                           <option name="myStart" value="4" />
                                         </MyInitialState>
                                       </option>
-                                      <option name="length" value="10" />
-                                      <option name="line" value="1" />
+                                      <option name="length" value="0" />
+                                      <option name="line" value="0" />
                                       <option name="possibleAnswer" value="override fun compareTo(other: MyDate) = when {&#10;        year != other.year -&gt; year - other.year&#10;        month != other.month -&gt; month - other.month&#10;        else -&gt; dayOfMonth - other.dayOfMonth&#10;    }" />
-                                      <option name="selected" value="false" />
-                                      <option name="start" value="4" />
-                                      <option name="status" value="Unchecked" />
+                                      <option name="selected" value="true" />
+                                      <option name="start" value="91" />
+                                      <option name="status" value="Solved" />
                                       <option name="taskText" />
                                     </AnswerPlaceholder>
                                   </list>
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="index" value="-1" />
                                 <option name="trackChanges" value="true" />
                                 <option name="userCreated" value="false" />
@@ -709,7 +712,7 @@
                     <Task>
                       <option name="index" value="2" />
                       <option name="name" value="In range" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
                       <option name="stepicId" value="0" />
                       <option name="text" />
                       <option name="taskFiles">
@@ -744,17 +747,17 @@
                                           <option name="myStart" value="60" />
                                         </MyInitialState>
                                       </option>
-                                      <option name="length" value="10" />
+                                      <option name="length" value="93" />
                                       <option name="line" value="0" />
                                       <option name="possibleAnswer" value=" {&#10;    operator fun contains(item: MyDate): Boolean = start &lt;= item &amp;&amp; item &lt;= endInclusive&#10;}" />
-                                      <option name="selected" value="false" />
+                                      <option name="selected" value="true" />
                                       <option name="start" value="60" />
-                                      <option name="status" value="Unchecked" />
+                                      <option name="status" value="Solved" />
                                       <option name="taskText" />
                                     </AnswerPlaceholder>
                                   </list>
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="index" value="-1" />
                                 <option name="trackChanges" value="true" />
                                 <option name="userCreated" value="false" />
@@ -769,7 +772,7 @@
                     <Task>
                       <option name="index" value="3" />
                       <option name="name" value="Range to" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
                       <option name="stepicId" value="0" />
                       <option name="text" />
                       <option name="taskFiles">
@@ -804,17 +807,17 @@
                                           <option name="myStart" value="45" />
                                         </MyInitialState>
                                       </option>
-                                      <option name="length" value="6" />
+                                      <option name="length" value="22" />
                                       <option name="line" value="0" />
                                       <option name="possibleAnswer" value="DateRange(this, other)" />
-                                      <option name="selected" value="false" />
+                                      <option name="selected" value="true" />
                                       <option name="start" value="45" />
-                                      <option name="status" value="Unchecked" />
+                                      <option name="status" value="Solved" />
                                       <option name="taskText" />
                                     </AnswerPlaceholder>
                                   </list>
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="index" value="-1" />
                                 <option name="trackChanges" value="true" />
                                 <option name="userCreated" value="false" />
@@ -829,7 +832,7 @@
                     <Task>
                       <option name="index" value="4" />
                       <option name="name" value="For loop" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
                       <option name="stepicId" value="0" />
                       <option name="text" />
                       <option name="taskFiles">
@@ -879,17 +882,17 @@
                                           <option name="myStart" value="0" />
                                         </MyInitialState>
                                       </option>
-                                      <option name="length" value="51" />
+                                      <option name="length" value="439" />
                                       <option name="line" value="0" />
                                       <option name="possibleAnswer" value="class DateRange(val start: MyDate, val end: MyDate): Iterable&lt;MyDate&gt;{&#10;    override fun iterator(): Iterator&lt;MyDate&gt; = DateIterator(this)&#10;}&#10;&#10;class DateIterator(val dateRange:DateRange) : Iterator&lt;MyDate&gt; {&#10;    var current: MyDate = dateRange.start&#10;    override fun next(): MyDate {&#10;        val result = current&#10;        current = current.nextDay()&#10;        return result&#10;    }&#10;    override fun hasNext(): Boolean = current &lt;= dateRange.end&#10;}" />
-                                      <option name="selected" value="false" />
+                                      <option name="selected" value="true" />
                                       <option name="start" value="0" />
-                                      <option name="status" value="Unchecked" />
+                                      <option name="status" value="Solved" />
                                       <option name="taskText" />
                                     </AnswerPlaceholder>
                                   </list>
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="index" value="-1" />
                                 <option name="trackChanges" value="true" />
                                 <option name="userCreated" value="false" />
@@ -904,7 +907,7 @@
                     <Task>
                       <option name="index" value="5" />
                       <option name="name" value="Operators overloading" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Failed" />
                       <option name="stepicId" value="0" />
                       <option name="text" />
                       <option name="taskFiles">
@@ -944,7 +947,7 @@
                                       <option name="possibleAnswer" value="&#10;operator fun MyDate.plus(timeInterval: TimeInterval) = addTimeIntervals(timeInterval, 1)&#10;&#10;class RepeatedTimeInterval(val timeInterval: TimeInterval, val number: Int)&#10;operator fun TimeInterval.times(number: Int) = RepeatedTimeInterval(this, number)&#10;&#10;operator fun MyDate.plus(timeIntervals: RepeatedTimeInterval) = addTimeIntervals(timeIntervals.timeInterval, timeIntervals.number)&#10;" />
                                       <option name="selected" value="false" />
                                       <option name="start" value="0" />
-                                      <option name="status" value="Unchecked" />
+                                      <option name="status" value="Failed" />
                                       <option name="taskText" />
                                     </AnswerPlaceholder>
                                     <AnswerPlaceholder>
@@ -962,7 +965,7 @@
                                       <option name="possibleAnswer" value="return today + YEAR * 2 + WEEK * 3 + DAY * 5" />
                                       <option name="selected" value="false" />
                                       <option name="start" value="4" />
-                                      <option name="status" value="Unchecked" />
+                                      <option name="status" value="Failed" />
                                       <option name="taskText" />
                                     </AnswerPlaceholder>
                                   </list>
@@ -982,7 +985,7 @@
                     <Task>
                       <option name="index" value="6" />
                       <option name="name" value="Destructuring declarations" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
                       <option name="stepicId" value="0" />
                       <option name="text" />
                       <option name="taskFiles">
@@ -1002,17 +1005,17 @@
                                           <option name="myStart" value="0" />
                                         </MyInitialState>
                                       </option>
-                                      <option name="length" value="10" />
+                                      <option name="length" value="15" />
                                       <option name="line" value="0" />
                                       <option name="possibleAnswer" value="data " />
-                                      <option name="selected" value="false" />
+                                      <option name="selected" value="true" />
                                       <option name="start" value="0" />
-                                      <option name="status" value="Unchecked" />
+                                      <option name="status" value="Solved" />
                                       <option name="taskText" />
                                     </AnswerPlaceholder>
                                   </list>
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="index" value="-1" />
                                 <option name="trackChanges" value="true" />
                                 <option name="userCreated" value="false" />
@@ -1027,7 +1030,7 @@
                     <Task>
                       <option name="index" value="7" />
                       <option name="name" value="Invoke" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
                       <option name="stepicId" value="0" />
                       <option name="text" />
                       <option name="taskFiles">
@@ -1047,17 +1050,17 @@
                                           <option name="myStart" value="8" />
                                         </MyInitialState>
                                       </option>
-                                      <option name="length" value="6" />
+                                      <option name="length" value="41" />
                                       <option name="line" value="4" />
                                       <option name="possibleAnswer" value="numberOfInvocations++&#10;        return this" />
-                                      <option name="selected" value="false" />
+                                      <option name="selected" value="true" />
                                       <option name="start" value="8" />
-                                      <option name="status" value="Unchecked" />
+                                      <option name="status" value="Solved" />
                                       <option name="taskText" />
                                     </AnswerPlaceholder>
                                   </list>
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="index" value="-1" />
                                 <option name="trackChanges" value="true" />
                                 <option name="userCreated" value="false" />
@@ -1081,7 +1084,7 @@
                     <Task>
                       <option name="index" value="1" />
                       <option name="name" value="Introduction" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
                       <option name="stepicId" value="0" />
                       <option name="text" />
                       <option name="taskFiles">
@@ -1116,17 +1119,17 @@
                                           <option name="myStart" value="46" />
                                         </MyInitialState>
                                       </option>
-                                      <option name="length" value="6" />
+                                      <option name="length" value="17" />
                                       <option name="line" value="0" />
                                       <option name="possibleAnswer" value="customers.toSet()" />
                                       <option name="selected" value="false" />
                                       <option name="start" value="46" />
-                                      <option name="status" value="Unchecked" />
+                                      <option name="status" value="Solved" />
                                       <option name="taskText" />
                                     </AnswerPlaceholder>
                                   </list>
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="index" value="-1" />
                                 <option name="trackChanges" value="true" />
                                 <option name="userCreated" value="false" />
@@ -1156,7 +1159,7 @@
                     <Task>
                       <option name="index" value="2" />
                       <option name="name" value="Filter map" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
                       <option name="stepicId" value="0" />
                       <option name="text" />
                       <option name="taskFiles">
@@ -1191,12 +1194,12 @@
                                           <option name="myStart" value="50" />
                                         </MyInitialState>
                                       </option>
-                                      <option name="length" value="6" />
-                                      <option name="line" value="1" />
+                                      <option name="length" value="33" />
+                                      <option name="line" value="3" />
                                       <option name="possibleAnswer" value="customers.map { it.city }.toSet()" />
-                                      <option name="selected" value="false" />
+                                      <option name="selected" value="true" />
                                       <option name="start" value="50" />
-                                      <option name="status" value="Unchecked" />
+                                      <option name="status" value="Solved" />
                                       <option name="taskText" />
                                     </AnswerPlaceholder>
                                     <AnswerPlaceholder>
@@ -1209,17 +1212,17 @@
                                           <option name="myStart" value="56" />
                                         </MyInitialState>
                                       </option>
-                                      <option name="length" value="6" />
-                                      <option name="line" value="4" />
+                                      <option name="length" value="36" />
+                                      <option name="line" value="6" />
                                       <option name="possibleAnswer" value="customers.filter { it.city == city }" />
-                                      <option name="selected" value="false" />
+                                      <option name="selected" value="true" />
                                       <option name="start" value="56" />
-                                      <option name="status" value="Unchecked" />
+                                      <option name="status" value="Solved" />
                                       <option name="taskText" />
                                     </AnswerPlaceholder>
                                   </list>
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="index" value="-1" />
                                 <option name="trackChanges" value="true" />
                                 <option name="userCreated" value="false" />
