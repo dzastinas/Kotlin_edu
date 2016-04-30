@@ -4,9 +4,6 @@
     <StudyTaskManager>
       <option name="course">
         <Course>
-          <option name="authors">
-            <list />
-          </option>
           <option name="courseDirectory" value="$APPLICATION_CONFIG_DIR$/courses/Kotlin Koans" />
           <option name="courseType" value="PyCharm" />
           <option name="description" value="Kotlin Koans" />
@@ -172,7 +169,7 @@
                     <Task>
                       <option name="index" value="4" />
                       <option name="name" value="Default arguments" />
-                      <option name="status" value="Failed" />
+                      <option name="status" value="Solved" />
                       <option name="stepicId" value="0" />
                       <option name="text" />
                       <option name="taskFiles">
@@ -197,7 +194,7 @@
                                       <option name="possibleAnswer" value="fun foo(name: String, number: Int = 42, toUpperCase: Boolean = false)" />
                                       <option name="selected" value="true" />
                                       <option name="start" value="0" />
-                                      <option name="status" value="Failed" />
+                                      <option name="status" value="Solved" />
                                       <option name="taskText" />
                                     </AnswerPlaceholder>
                                   </list>
@@ -217,7 +214,7 @@
                     <Task>
                       <option name="index" value="5" />
                       <option name="name" value="Lambdas" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
                       <option name="stepicId" value="0" />
                       <option name="text" />
                       <option name="taskFiles">
@@ -237,17 +234,17 @@
                                           <option name="myStart" value="74" />
                                         </MyInitialState>
                                       </option>
-                                      <option name="length" value="6" />
+                                      <option name="length" value="11" />
                                       <option name="line" value="0" />
                                       <option name="possibleAnswer" value="it % 2 == 0" />
-                                      <option name="selected" value="false" />
+                                      <option name="selected" value="true" />
                                       <option name="start" value="74" />
-                                      <option name="status" value="Unchecked" />
+                                      <option name="status" value="Solved" />
                                       <option name="taskText" />
                                     </AnswerPlaceholder>
                                   </list>
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="index" value="-1" />
                                 <option name="trackChanges" value="true" />
                                 <option name="userCreated" value="false" />
@@ -262,7 +259,7 @@
                     <Task>
                       <option name="index" value="6" />
                       <option name="name" value="Strings" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
                       <option name="stepicId" value="0" />
                       <option name="text" />
                       <option name="taskFiles">
@@ -282,17 +279,17 @@
                                           <option name="myStart" value="27" />
                                         </MyInitialState>
                                       </option>
-                                      <option name="length" value="6" />
+                                      <option name="length" value="26" />
                                       <option name="line" value="2" />
                                       <option name="possibleAnswer" value="&quot;&quot;&quot;\d{2} ${month} \d{4}&quot;&quot;&quot;" />
-                                      <option name="selected" value="false" />
+                                      <option name="selected" value="true" />
                                       <option name="start" value="27" />
-                                      <option name="status" value="Unchecked" />
+                                      <option name="status" value="Solved" />
                                       <option name="taskText" />
                                     </AnswerPlaceholder>
                                   </list>
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="index" value="-1" />
                                 <option name="trackChanges" value="true" />
                                 <option name="userCreated" value="false" />
@@ -307,7 +304,7 @@
                     <Task>
                       <option name="index" value="7" />
                       <option name="name" value="Data classes" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
                       <option name="stepicId" value="0" />
                       <option name="text" />
                       <option name="taskFiles">
@@ -327,17 +324,17 @@
                                           <option name="myStart" value="0" />
                                         </MyInitialState>
                                       </option>
-                                      <option name="length" value="12" />
+                                      <option name="length" value="49" />
                                       <option name="line" value="0" />
                                       <option name="possibleAnswer" value="data class Person(val name: String, val age: Int)" />
                                       <option name="selected" value="false" />
                                       <option name="start" value="0" />
-                                      <option name="status" value="Unchecked" />
+                                      <option name="status" value="Solved" />
                                       <option name="taskText" />
                                     </AnswerPlaceholder>
                                   </list>
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="index" value="-1" />
                                 <option name="trackChanges" value="true" />
                                 <option name="userCreated" value="false" />
@@ -352,7 +349,7 @@
                     <Task>
                       <option name="index" value="8" />
                       <option name="name" value="Nullable types" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
                       <option name="stepicId" value="0" />
                       <option name="text" />
                       <option name="taskFiles">
@@ -372,17 +369,17 @@
                                           <option name="myStart" value="4" />
                                         </MyInitialState>
                                       </option>
-                                      <option name="length" value="6" />
+                                      <option name="length" value="133" />
                                       <option name="line" value="3" />
                                       <option name="possibleAnswer" value="val email = client?.personalInfo?.email&#10;    if (email != null &amp;&amp; message != null) {&#10;        mailer.sendMessage(email, message)&#10;    }" />
-                                      <option name="selected" value="false" />
+                                      <option name="selected" value="true" />
                                       <option name="start" value="4" />
-                                      <option name="status" value="Unchecked" />
+                                      <option name="status" value="Solved" />
                                       <option name="taskText" />
                                     </AnswerPlaceholder>
                                   </list>
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="index" value="-1" />
                                 <option name="trackChanges" value="true" />
                                 <option name="userCreated" value="false" />
@@ -2793,6 +2790,7 @@
       <option name="myInvisibleFiles">
         <list />
       </option>
+      <option name="myShouldUseJavaFx" value="false" />
     </StudyTaskManager>
   </component>
 </project>
